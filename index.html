@@ -3,7 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mine Builder 2.0 - Minecraft AI Generator 🎮</title>
+
+    <!-- SEO: Primary Title Tag (Bilingual) -->
+    <title>Mine Builder 2.0: AI Minecraft Generator | AI生成我的世界建筑</title>
+
+    <!-- SEO: Meta Description (Bilingual & Compelling) -->
+    <meta name="description" content="Use Mine Builder 2.0 to instantly generate epic Minecraft buildings from text. Our AI tool turns ideas into schematics. The ultimate AI generator for Minecraft creators. 使用我们的AI工具，通过文本即刻生成《我的世界》史诗建筑。">
+
+    <!-- SEO: Keywords -->
+    <meta name="keywords" content="ai generate minecraft, minecraft ai generator, ai minecraft builder, text to minecraft, minecraft building generator, 我的世界AI生成, AI生成我的世界建筑, 我的世界建造工具, 人工智能MC, AI我的世界">
+
+    <!-- SEO: Canonical URL (Prevents duplicate content issues) -->
+    <link rel="canonical" href="https://your-website-url.com/" /> <!-- 请替换成你的网站域名 -->
+
+    <!-- SEO: Open Graph Meta Tags (for Social Media Sharing) -->
+    <meta property="og:title" content="Mine Builder 2.0: AI Minecraft Generator | AI生成我的世界建筑">
+    <meta property="og:description" content="Instantly generate epic Minecraft buildings from text. Our AI tool turns ideas into schematics. 通过文本即刻生成《我的世界》史诗建筑。">
+    <meta property="og:image" content="https://placehold.co/1200x630/2a9d8f/ffffff?text=AI+Generate+Minecraft+Builds"> <!-- SEO: A representative image for sharing -->
+    <meta property="og:url" content="https://your-website-url.com/"> <!-- 请替换成你的网站域名 -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="zh_CN">
+
+    <!-- SEO: Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mine Builder 2.0: AI Minecraft Generator | AI生成我的世界建筑">
+    <meta name="twitter:description" content="Instantly generate epic Minecraft buildings from text with our AI tool. The ultimate generator for creators. AI文本生成《我的世界》建筑。">
+    <meta name="twitter:image" content="https://placehold.co/1200x630/2a9d8f/ffffff?text=AI+Generate+Minecraft+Builds"> <!-- SEO: Use the same image as og:image -->
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
         
@@ -44,7 +71,7 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            background-image: 
+            background-image:  
                 repeating-linear-gradient(0deg, transparent, transparent 20px, rgba(255,255,255,0.03) 20px, rgba(255,255,255,0.03) 21px),
                 repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(255,255,255,0.03) 20px, rgba(255,255,255,0.03) 21px);
             animation: gridScroll 20s linear infinite;
@@ -72,40 +99,40 @@
             height: 40px;
             background: #8B4513;
             border: 3px solid #654321;
-            box-shadow: 
+            box-shadow:  
                 inset -2px -2px 0 rgba(0,0,0,0.3),
                 inset 2px 2px 0 rgba(255,255,255,0.3);
             animation: float 6s ease-in-out infinite;
         }
         
-        .block:nth-child(1) { 
-            left: 10%; 
-            animation-delay: 0s; 
+        .block:nth-child(1) {  
+            left: 10%;  
+            animation-delay: 0s;  
             background: #7CFC00;
             border-color: #6BBF00;
         }
-        .block:nth-child(2) { 
-            left: 30%; 
-            animation-delay: 1s; 
+        .block:nth-child(2) {  
+            left: 30%;  
+            animation-delay: 1s;  
             background: #A0522D;
             top: 20%;
         }
-        .block:nth-child(3) { 
-            left: 50%; 
-            animation-delay: 2s; 
+        .block:nth-child(3) {  
+            left: 50%;  
+            animation-delay: 2s;  
             background: #808080;
             border-color: #696969;
             top: 60%;
         }
-        .block:nth-child(4) { 
-            left: 70%; 
-            animation-delay: 3s; 
+        .block:nth-child(4) {  
+            left: 70%;  
+            animation-delay: 3s;  
             background: #8B4513;
             top: 30%;
         }
-        .block:nth-child(5) { 
-            left: 90%; 
-            animation-delay: 4s; 
+        .block:nth-child(5) {  
+            left: 90%;  
+            animation-delay: 4s;  
             background: #228B22;
             border-color: #1F7A1F;
             top: 70%;
@@ -138,11 +165,11 @@
         }
         
         @keyframes particleFall {
-            0% { 
+            0% {  
                 transform: translateY(-100vh) scale(1);
                 opacity: 1;
             }
-            100% { 
+            100% {  
                 transform: translateY(100vh) scale(0);
                 opacity: 0;
             }
@@ -187,7 +214,7 @@
             padding: 10px 15px;
             background: #5c5c5c;
             border: 2px solid #3c3c3c;
-            box-shadow: 
+            box-shadow:  
                 inset -2px -2px 0 rgba(0,0,0,0.5),
                 inset 2px 2px 0 rgba(255,255,255,0.3);
             transition: all 0.1s;
@@ -197,7 +224,7 @@
         nav a:hover {
             background: #7c7c7c;
             transform: translateY(-2px);
-            box-shadow: 
+            box-shadow:  
                 inset -2px -2px 0 rgba(0,0,0,0.5),
                 inset 2px 2px 0 rgba(255,255,255,0.3),
                 0 4px 0 #3c3c3c;
@@ -205,7 +232,7 @@
         
         nav a:active {
             transform: translateY(0);
-            box-shadow: 
+            box-shadow:  
                 inset -2px -2px 0 rgba(0,0,0,0.5),
                 inset 2px 2px 0 rgba(255,255,255,0.3);
         }
@@ -226,12 +253,22 @@
         .hero h1 {
             font-size: 3rem;
             color: #ffff00;
-            text-shadow: 
+            text-shadow:  
                 4px 4px 0 #cc9900,
                 8px 8px 0 rgba(0,0,0,0.5);
             animation: titleBounce 1s ease-in-out infinite;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             letter-spacing: 2px;
+            line-height: 1.2;
+        }
+
+        /* SEO: Subheading for secondary language */
+        .lang-subheading {
+            display: block;
+            font-size: 1.5rem;
+            color: #55ffff;
+            text-shadow: 2px 2px 0 #155555;
+            margin-top: 10px;
         }
         
         @keyframes titleBounce {
@@ -256,7 +293,7 @@
             color: #fff;
             background: #55ff55;
             border: 4px solid #155515;
-            box-shadow: 
+            box-shadow:  
                 inset -4px -4px 0 rgba(0,0,0,0.3),
                 inset 4px 4px 0 rgba(255,255,255,0.3),
                 0 8px 0 #155515;
@@ -270,7 +307,7 @@
         .mc-button:hover {
             background: #77ff77;
             transform: translateY(-4px);
-            box-shadow: 
+            box-shadow:  
                 inset -4px -4px 0 rgba(0,0,0,0.3),
                 inset 4px 4px 0 rgba(255,255,255,0.3),
                 0 12px 0 #155515;
@@ -278,7 +315,7 @@
         
         .mc-button:active {
             transform: translateY(0);
-            box-shadow: 
+            box-shadow:  
                 inset -4px -4px 0 rgba(0,0,0,0.3),
                 inset 4px 4px 0 rgba(255,255,255,0.3),
                 0 4px 0 #155515;
@@ -287,7 +324,7 @@
         .mc-button.secondary {
             background: #ff5555;
             border-color: #aa0000;
-            box-shadow: 
+            box-shadow:  
                 inset -4px -4px 0 rgba(0,0,0,0.3),
                 inset 4px 4px 0 rgba(255,255,255,0.3),
                 0 8px 0 #aa0000;
@@ -295,7 +332,7 @@
         
         .mc-button.secondary:hover {
             background: #ff7777;
-            box-shadow: 
+            box-shadow:  
                 inset -4px -4px 0 rgba(0,0,0,0.3),
                 inset 4px 4px 0 rgba(255,255,255,0.3),
                 0 12px 0 #aa0000;
@@ -319,7 +356,7 @@
             position: relative;
             overflow: hidden;
             transition: all 0.3s;
-            box-shadow: 
+            box-shadow:  
                 inset -4px -4px 0 rgba(0,0,0,0.5),
                 inset 4px 4px 0 rgba(255,255,255,0.1);
         }
@@ -344,7 +381,7 @@
         .stat-card:hover {
             transform: scale(1.05) translateY(-10px);
             border-color: #55ff55;
-            box-shadow: 
+            box-shadow:  
                 inset -4px -4px 0 rgba(0,0,0,0.5),
                 inset 4px 4px 0 rgba(255,255,255,0.1),
                 0 0 20px #55ff55;
@@ -406,7 +443,7 @@
             overflow: hidden;
             position: relative;
             transition: all 0.3s;
-            box-shadow: 
+            box-shadow:  
                 inset -4px -4px 0 rgba(0,0,0,0.5),
                 inset 4px 4px 0 rgba(255,255,255,0.1);
         }
@@ -414,7 +451,7 @@
         .gallery-item:hover {
             transform: scale(1.05) rotateZ(2deg);
             border-color: #ffff00;
-            box-shadow: 
+            box-shadow:  
                 inset -4px -4px 0 rgba(0,0,0,0.5),
                 inset 4px 4px 0 rgba(255,255,255,0.1),
                 0 0 30px #ffff00;
@@ -550,7 +587,7 @@
             position: relative;
             animation: slideInLeft 0.5s ease-out forwards;
             opacity: 0;
-            box-shadow: 
+            box-shadow:  
                 inset -4px -4px 0 rgba(0,0,0,0.5),
                 inset 4px 4px 0 rgba(255,255,255,0.1);
         }
@@ -574,7 +611,7 @@
         .pipeline-step:hover {
             border-color: #ff55ff;
             transform: scale(1.02);
-            box-shadow: 
+            box-shadow:  
                 inset -4px -4px 0 rgba(0,0,0,0.5),
                 inset 4px 4px 0 rgba(255,255,255,0.1),
                 0 0 20px rgba(255, 85, 255, 0.5);
@@ -591,7 +628,7 @@
             border: 3px solid #aa00aa;
             margin-right: 20px;
             font-size: 1.5rem;
-            box-shadow: 
+            box-shadow:  
                 inset -2px -2px 0 rgba(0,0,0,0.3),
                 inset 2px 2px 0 rgba(255,255,255,0.3);
         }
@@ -638,11 +675,11 @@
         }
         
         @keyframes ctaGlow {
-            0%, 100% { 
+            0%, 100% {  
                 text-shadow: 3px 3px 0 #155515;
                 color: #55ff55;
             }
-            50% { 
+            50% {  
                 text-shadow: 3px 3px 0 #155515, 0 0 30px #55ff55;
                 color: #77ff77;
             }
@@ -801,6 +838,10 @@
             .hero h1 {
                 font-size: 1.5rem;
             }
+
+            .lang-subheading {
+                font-size: 1rem;
+            }
             
             .gallery-grid {
                 grid-template-columns: 1fr;
@@ -864,7 +905,48 @@
             33% { transform: translate(2px, -2px); }
             66% { transform: translate(-2px, 2px); }
         }
+
+        /* Easter Egg Modal (replaces alert) */
+        .easter-egg-modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.8);
+            background: rgba(0,0,0,0.9);
+            border: 4px solid #55ff55;
+            padding: 40px;
+            color: #55ff55;
+            font-size: 1rem;
+            text-align: center;
+            z-index: 10001;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 0 30px #55ff55;
+        }
+        .easter-egg-modal.visible {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
     </style>
+    <!-- SEO: JSON-LD Schema for Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Mine Builder 2.0 - AI Minecraft Generator",
+      "description": "An AI-powered tool that generates Minecraft buildings from text prompts. It uses advanced models to create 3D structures and exports them as schematic files for use in Minecraft.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Web",
+      "url": "https://your-website-url.com/",
+      "keywords": "ai generate minecraft, minecraft ai generator, text to minecraft, ai生成我的世界建筑",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      }
+    }
+    </script>
 </head>
 <body>
     <!-- Animated Background -->
@@ -886,165 +968,176 @@
     <nav>
         <div class="logo">⛏️ MINE BUILDER 2.0</div>
         <div class="nav-links">
-            <a href="#demos">DEMOS</a>
-            <a href="#features">FEATURES</a>
-            <a href="#pipeline">PIPELINE</a>
-            <a href="#cta">START</a>
+            <a href="#demos">DEMOS / 演示</a>
+            <a href="#features">FEATURES / 功能</a>
+            <a href="#pipeline">PIPELINE / 流程</a>
+            <a href="#cta">START / 开始</a>
         </div>
     </nav>
     
     <!-- Hero Section -->
-    <section class="hero">
-        <h1 class="glitch" data-text="AI MINECRAFT GENERATOR">AI MINECRAFT GENERATOR</h1>
+    <header class="hero" role="banner">
+        <h1 class="glitch" data-text="AI MINECRAFT GENERATOR">
+            AI MINECRAFT GENERATOR
+            <span class="lang-subheading">AI生成我的世界建筑</span>
+        </h1>
         <p>
-            TRANSFORM TEXT INTO EPIC MINECRAFT BUILDINGS<br>
+            TRANSFORM TEXT INTO EPIC MINECRAFT BUILDINGS.
+            <br>
+            通过文本将你的想法变为《我的世界》中的史诗建筑。
+            <br>
             POWERED BY NANO BANANA + 3D GENERATION + GEMINI 2.5 FLASH
         </p>
         <div class="button-group">
-            <a href="#demos" class="mc-button">VIEW DEMOS</a>
-            <a href="https://github.com/nianxi666/mine-builder2.0" class="mc-button secondary">GITHUB</a>
+            <a href="#demos" class="mc-button">VIEW DEMOS / 查看演示</a>
+            <a href="https://github.com/nianxi666/mine-builder2.0" class="mc-button secondary" target="_blank" rel="noopener noreferrer">GITHUB</a>
         </div>
-    </section>
+    </header>
     
-    <!-- Stats Section -->
-    <section class="stats fade-in">
-        <div class="stat-card tilt-card">
-            <div class="stat-icon">⚡</div>
-            <div class="stat-number">14.7s</div>
-            <div class="stat-label">GENERATION TIME</div>
-        </div>
-        <div class="stat-card tilt-card">
-            <div class="stat-icon">🎯</div>
-            <div class="stat-number">92.3%</div>
-            <div class="stat-label">MATERIAL ACCURACY</div>
-        </div>
-        <div class="stat-card tilt-card">
-            <div class="stat-icon">🧱</div>
-            <div class="stat-number">8192</div>
-            <div class="stat-label">LATENT DIMENSION</div>
-        </div>
-        <div class="stat-card tilt-card">
-            <div class="stat-icon">🎮</div>
-            <div class="stat-number">150+</div>
-            <div class="stat-label">MINECRAFT BLOCKS</div>
-        </div>
-    </section>
-    
-    <!-- Demo Gallery -->
-    <section class="gallery fade-in" id="demos">
-        <h2>🏰 EPIC BUILDS</h2>
-        <div class="gallery-grid">
-            <div class="gallery-item">
-                <img src="https://placehold.co/600x400/8B4513/FFD700?text=CASTLE+BUILD" alt="Demo 1" onerror="this.src='https://placehold.co/600x400/8B4513/FFD700?text=CASTLE+BUILD'">
-                <div class="gallery-caption">
-                    <h3>⛰️ EPIC CASTLE</h3>
-                    <p>Medieval fortress with towering spires and stone brick walls. Generated in 14.7 seconds with perfect material matching.</p>
+    <main>
+        <!-- Stats Section -->
+        <section class="stats fade-in">
+            <div class="stat-card tilt-card">
+                <div class="stat-icon">⚡</div>
+                <div class="stat-number">14.7s</div>
+                <div class="stat-label">GENERATION TIME / 生成时间</div>
+            </div>
+            <div class="stat-card tilt-card">
+                <div class="stat-icon">🎯</div>
+                <div class="stat-number">92.3%</div>
+                <div class="stat-label">MATERIAL ACCURACY / 材料准确率</div>
+            </div>
+            <div class="stat-card tilt-card">
+                <div class="stat-icon">🧱</div>
+                <div class="stat-number">8192</div>
+                <div class="stat-label">LATENT DIMENSION / 潜在维度</div>
+            </div>
+            <div class="stat-card tilt-card">
+                <div class="stat-icon">🎮</div>
+                <div class="stat-number">150+</div>
+                <div class="stat-label">MINECRAFT BLOCKS / MC方块</div>
+            </div>
+        </section>
+        
+        <!-- Demo Gallery -->
+        <section class="gallery fade-in" id="demos">
+            <h2>🏰 EPIC BUILDS / 史诗建筑</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <!-- SEO: Descriptive Alt Text -->
+                    <img src="https://placehold.co/600x400/8B4513/FFD700?text=CASTLE+BUILD" alt="AI generated Minecraft castle - AI生成我的世界城堡" onerror="this.src='https://placehold.co/600x400/8B4513/FFD700?text=CASTLE+BUILD'">
+                    <div class="gallery-caption">
+                        <h3>⛰️ EPIC CASTLE / 史诗城堡</h3>
+                        <p>Medieval fortress with towering spires and stone brick walls. Generated in 14.7 seconds. 一座拥有高耸尖塔和石砖墙的中世纪堡垒。</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                     <!-- SEO: Descriptive Alt Text -->
+                    <img src="https://placehold.co/600x400/228B22/FFD700?text=MODERN+BUILD" alt="AI generated modern tower in Minecraft - AI生成我的世界现代高楼" onerror="this.src='https://placehold.co/600x400/228B22/FFD700?text=MODERN+BUILD'">
+                    <div class="gallery-caption">
+                        <h3>🏢 MODERN TOWER / 现代高楼</h3>
+                        <p>Contemporary architecture with glass and concrete. AI-powered material selection. 采用玻璃和混凝土的现代建筑，由AI选择材料。</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                     <!-- SEO: Descriptive Alt Text -->
+                    <img src="https://placehold.co/600x400/8B4513/FFD700?text=FANTASY+BUILD" alt="AI generated fantasy treehouse in Minecraft - AI生成我的世界奇幻树屋" onerror="this.src='https://placehold.co/600x400/8B4513/FFD700?text=FANTASY+BUILD'">
+                    <div class="gallery-caption">
+                        <h3>🌳 FANTASY HOUSE / 奇幻树屋</h3>
+                        <p>Organic treehouse design with natural materials. Part-aware 3D generation. 采用天然材料的有机树屋设计，分部感知3D生成。</p>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-item">
-                <img src="https://placehold.co/600x400/228B22/FFD700?text=MODERN+BUILD" alt="Demo 2" onerror="this.src='https://placehold.co/600x400/228B22/FFD700?text=MODERN+BUILD'">
-                <div class="gallery-caption">
-                    <h3>🏢 MODERN TOWER</h3>
-                    <p>Contemporary architecture with glass and concrete. AI-powered material selection with 92.3% accuracy.</p>
+        </section>
+        
+        <!-- Features Section -->
+        <section class="features fade-in" id="features">
+            <h2>⚙️ FEATURES / 核心功能</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">🎨</span>
+                    <h3>TEXT TO IMAGE / 文本到图像</h3>
+                    <p>Nano Banana model generates 518x518 images from text prompts in just 1.8 seconds. 模型从文本提示生成图像。</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🧱</span>
+                    <h3>IMAGE TO 3D / 图像到3D</h3>
+                    <p>Hierarchical 3D generation with 8192-dim latent space and DINOv2 ViT-g/14 encoder creates detailed meshes. 生成精细的3D模型。</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🎭</span>
+                    <h3>AI MATERIALS / AI自动选材</h3>
+                    <p>Gemini 2.5 Flash vision model intelligently assigns Minecraft block materials with 92.3% accuracy. 智能分配MC方块材料。</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🔄</span>
+                    <h3>REAL-TIME PREVIEW / 实时预览</h3>
+                    <p>Interactive Three.js viewer with part-level editing and multi-view rendering for instant feedback. 可交互的3D预览。</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">📦</span>
+                    <h3>SCHEMATIC EXPORT / 蓝图导出</h3>
+                    <p>Direct conversion to Minecraft 1.12 .schematic format with NBT encoding and GZIP compression. 直接导出为.schematic格式。</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">💾</span>
+                    <h3>SAVE/LOAD SYSTEM / 保存与加载</h3>
+                    <p>Persistent state management with localStorage and ZIP export for session recovery. 支持本地保存和会话恢复。</p>
                 </div>
             </div>
-            <div class="gallery-item">
-                <img src="https://placehold.co/600x400/8B4513/FFD700?text=FANTASY+BUILD" alt="Demo 3" onerror="this.src='https://placehold.co/600x400/8B4513/FFD700?text=FANTASY+BUILD'">
-                <div class="gallery-caption">
-                    <h3>🌳 FANTASY HOUSE</h3>
-                    <p>Organic treehouse design with natural materials. Part-aware 3D generation creates stunning details.</p>
+        </section>
+        
+        <!-- Pipeline Section -->
+        <section class="pipeline fade-in" id="pipeline">
+            <h2>🔧 GENERATION PIPELINE / 生成流程</h2>
+            <div class="pipeline-step">
+                <span class="step-number">1</span>
+                <div class="step-content">
+                    <h3>TEXT TO IMAGE / 文本到图像</h3>
+                    <p>Nano Banana model converts your text prompt into a 518×518 high-quality image. (~1.8s) 你的文本提示被转换为高质量图像。</p>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <!-- Features Section -->
-    <section class="features fade-in" id="features">
-        <h2>⚙️ FEATURES</h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <span class="feature-icon">🎨</span>
-                <h3>TEXT TO IMAGE</h3>
-                <p>Nano Banana diffusion model generates 518x518 images from text prompts in just 1.8 seconds.</p>
+            <div class="arrow-down">⬇</div>
+            <div class="pipeline-step">
+                <span class="step-number">2</span>
+                <div class="step-content">
+                    <h3>IMAGE TO 3D / 图像到3D</h3>
+                    <p>Hierarchical model generates part-aware 3D meshes using dual volume packing strategy. (~8.3s) 分层模型生成可感知部件的3D网格。</p>
+                </div>
             </div>
-            <div class="feature-card">
-                <span class="feature-icon">🧱</span>
-                <h3>IMAGE TO 3D</h3>
-                <p>Hierarchical 3D generation with 8192-dim latent space and DINOv2 ViT-g/14 encoder creates detailed meshes.</p>
+            <div class="arrow-down">⬇</div>
+            <div class="pipeline-step">
+                <span class="step-number">3</span>
+                <div class="step-content">
+                    <h3>AI MATERIAL REASONING / AI材料推理</h3>
+                    <p>Gemini 2.5 Flash analyzes global artistic style and assigns appropriate Minecraft block materials. (~4.2s) 分析艺术风格并分配MC方块。</p>
+                </div>
             </div>
-            <div class="feature-card">
-                <span class="feature-icon">🎭</span>
-                <h3>AI MATERIALS</h3>
-                <p>Gemini 2.5 Flash vision model intelligently assigns Minecraft block materials with 92.3% accuracy.</p>
+            <div class="arrow-down">⬇</div>
+            <div class="pipeline-step">
+                <span class="step-number">4</span>
+                <div class="step-content">
+                    <h3>VOXELIZATION & EXPORT / 体素化与导出</h3>
+                    <p>Convert to 32³ voxel grid and encode as Minecraft 1.12 .schematic file. (~0.4s) 转换为体素网格并导出为.schematic文件。</p>
+                </div>
             </div>
-            <div class="feature-card">
-                <span class="feature-icon">🔄</span>
-                <h3>REAL-TIME PREVIEW</h3>
-                <p>Interactive Three.js viewer with part-level editing and multi-view rendering for instant feedback.</p>
+        </section>
+        
+        <!-- CTA Section -->
+        <section class="cta fade-in" id="cta">
+            <h2>⚔️ START BUILDING NOW! / 现在开始建造！</h2>
+            <p>TRANSFORM YOUR IDEAS INTO MINECRAFT REALITY / 将你的想法变为《我的世界》中的现实</p>
+            <div class="button-group">
+                <a href="https://github.com/nianxi666/mine-builder2.0" class="mc-button" target="_blank" rel="noopener noreferrer">GET STARTED / 开始使用</a>
+                <a href="https://github.com/nianxi666/mine-builder2.0/blob/main/README.md" class="mc-button secondary" target="_blank" rel="noopener noreferrer">READ DOCS / 阅读文档</a>
             </div>
-            <div class="feature-card">
-                <span class="feature-icon">📦</span>
-                <h3>SCHEMATIC EXPORT</h3>
-                <p>Direct conversion to Minecraft 1.12 .schematic format with NBT encoding and GZIP compression.</p>
-            </div>
-            <div class="feature-card">
-                <span class="feature-icon">💾</span>
-                <h3>SAVE/LOAD SYSTEM</h3>
-                <p>Persistent state management with localStorage and ZIP export for session recovery.</p>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Pipeline Section -->
-    <section class="pipeline fade-in" id="pipeline">
-        <h2>🔧 GENERATION PIPELINE</h2>
-        <div class="pipeline-step">
-            <span class="step-number">1</span>
-            <div class="step-content">
-                <h3>TEXT TO IMAGE</h3>
-                <p>Nano Banana model converts your text prompt into a 518×518 high-quality image with automatic background removal and foreground optimization. Lightning-fast ~1.8s inference.</p>
-            </div>
-        </div>
-        <div class="arrow-down">⬇</div>
-        <div class="pipeline-step">
-            <span class="step-number">2</span>
-            <div class="step-content">
-                <h3>IMAGE TO 3D</h3>
-                <p>Hierarchical model with Flow (8192-dim latent) + VAE (384³ resolution) generates part-aware 3D meshes using dual volume packing strategy. ~8.3s processing time.</p>
-            </div>
-        </div>
-        <div class="arrow-down">⬇</div>
-        <div class="pipeline-step">
-            <span class="step-number">3</span>
-            <div class="step-content">
-                <h3>AI MATERIAL REASONING</h3>
-                <p>Gemini 2.5 Flash analyzes global artistic style and assigns appropriate Minecraft block materials to each part with context-aware reasoning. ~4.2s analysis time.</p>
-            </div>
-        </div>
-        <div class="arrow-down">⬇</div>
-        <div class="pipeline-step">
-            <span class="step-number">4</span>
-            <div class="step-content">
-                <h3>VOXELIZATION & EXPORT</h3>
-                <p>Convert to 32³ voxel grid and encode as Minecraft 1.12 .schematic file with NBT format and GZIP compression. Final ~8.4KB file ready to import! ~0.4s export time.</p>
-            </div>
-        </div>
-    </section>
-    
-    <!-- CTA Section -->
-    <section class="cta fade-in" id="cta">
-        <h2>⚔️ START BUILDING NOW!</h2>
-        <p>TRANSFORM YOUR IDEAS INTO MINECRAFT REALITY</p>
-        <div class="button-group">
-            <a href="https://github.com/nianxi666/mine-builder2.0" class="mc-button">GET STARTED</a>
-            <a href="https://github.com/nianxi666/mine-builder2.0/blob/main/README.md" class="mc-button secondary">READ DOCS</a>
-        </div>
-    </section>
+        </section>
+    </main>
     
     <!-- Footer -->
     <footer>
         <p>
-            © 2025 MINE BUILDER 2.0 | POWERED BY <a href="https://github.com/NVlabs/PartPacker">PARTPACKER</a> | 
+            © 2025 MINE BUILDER 2.0 | POWERED BY <a href="https://github.com/NVlabs/PartPacker" target="_blank" rel="noopener noreferrer">PARTPACKER</a> |  
             BUILT WITH ❤️ FOR THE MINECRAFT COMMUNITY
         </p>
     </footer>
@@ -1057,6 +1150,11 @@
         <div class="exp-bar">
             <div class="exp-fill"></div>
         </div>
+    </div>
+
+    <!-- Custom Modal for Easter Egg -->
+    <div id="easter-egg-modal" class="easter-egg-modal">
+        🎮 ACHIEVEMENT UNLOCKED! 🏆<br>MINECRAFT MASTER!
     </div>
 
     <script>
@@ -1127,7 +1225,7 @@
             });
         });
         
-        // Konami Code Easter Egg
+        // Konami Code Easter Egg (using custom modal instead of alert)
         let konamiCode = [];
         const konamiPattern = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
         
@@ -1137,8 +1235,19 @@
                 konamiCode.shift();
             }
             if (konamiCode.join(',') === konamiPattern.join(',')) {
-                alert('🎮 ACHIEVEMENT UNLOCKED: MINECRAFT MASTER! 🏆');
+                // Show custom modal
+                const modal = document.getElementById('easter-egg-modal');
+                modal.classList.add('visible');
                 document.body.style.animation = 'rainbow 2s linear infinite';
+                
+                // Hide modal after a few seconds
+                setTimeout(() => {
+                    modal.classList.remove('visible');
+                    document.body.style.animation = ''; // Optional: stop the rainbow effect
+                }, 4000);
+
+                // Reset code so it can be triggered again
+                konamiCode = [];
             }
         });
         
